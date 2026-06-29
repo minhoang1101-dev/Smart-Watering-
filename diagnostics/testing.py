@@ -1,15 +1,5 @@
 from time import sleep
 
-# ==================================================
-# Smart Watering System - No Sensor Diagnostic
-# ==================================================
-# Run this file on your computer with normal Python.
-# It does not need ESP32, soil sensor, DHT sensor, relay, LED, or pump.
-#
-# Purpose:
-# - Check if the watering logic makes sense.
-# - Simulate dry soil, wet soil, DHT readings, LED, and pump status.
-
 MOISTURE_THRESHOLD = 45
 MOISTURE_STOP_MARGIN = 8
 WATERING_TIME_STEPS = 4
